@@ -1,0 +1,16 @@
+.opensans {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.lato {
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+html, body {
+    font-family: $baseFontFamily;
+    font-weight: 400;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    /* The folowing rule can get you into trouble with entypo rendering in chrome / windows. */
+    // text-rendering: optimizelegibility; 
+     
+}

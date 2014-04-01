@@ -1,0 +1,27 @@
+// Emphasis & misc
+// -------------------------
+small, .small { font-size: 85%; } // Ex: 14px base font * 85% = about 12px
+strong, .strong { font-weight: bold; }
+em, .em { font-style: italic; }
+cite, .cite { font-style: normal; }
+
+// font weight helpers
+.extra-bold { font-weight: bolder; }
+.bold { font-weight: bold; }
+.normal { font-weight: normal; }
+.book { font-weight: lighter; }
+
+// Font weight helpers (Open Sans)
+// -------------------------
+.book { font-weight: 300; }
+.thin { font-weight: 300; }
+.semi-bold { font-weight: 600; }
+.bold { font-weight: 700; }
+.extra-bold { font-weight: 800; }
+
+// Font size helpers
+// -------------------------
+.text-biggest { font-size: 1.5em; }
+.text-bigger { font-size: 1.2em; }
+.text-smaller { font-size: 0.8em; } 
+.text-smallest { font-size: 0.6em; } 

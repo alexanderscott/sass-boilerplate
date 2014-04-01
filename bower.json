@@ -1,0 +1,19 @@
+{
+  "name":                                                "sass-boilerplate",
+  "version":                                             "0.1.0",
+  "dependencies":                                        {
+    "modernizr":                                         "",
+    "bootstrap":                                         "",
+    "backbone":                                          "",
+    "spin":                                              "",
+    "moment":                                            "",
+    "requirejs":                                         "",
+    "almond":                                            "",
+    "handlebars":                                        "",
+    "json2":                                             "",
+    "async":                                             "",
+    "parsleyjs":                                         "",
+    "underscore":                                        "",
+    "font-awesome":                                      "3.0.2"
+  }
+}

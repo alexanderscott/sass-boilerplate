@@ -1,0 +1,95 @@
+//=============================================================//
+//                  SHARED - SASS VARIABLES
+//
+//=============================================================//
+
+
+// ASSET PATHS
+$imagePath:                 '/assets/img';
+$fontPath:                  '/assets/font';
+$vendorPath:                '/assets/vendor';
+$cacheVersion:              1;
+//$backgroundColor:   #f9f9f8;
+
+$facebook-blue:             #415897;
+$twitter-blue:              #51abec;
+
+
+// TEXT
+$textColor:                 $black;
+$baseFontFamily:            'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$baseFontSize:              14px;
+
+$headingsFontFamily:        inherit;    // use default, $baseFontFamily
+$headingsColor:             inherit;    // use default, $textColor
+
+// LAYOUT
+$baseLineHeight:            20px;
+$headerHeight:              65px;
+$footerHeight:              50px;
+$paddingLeft:                20px !default;
+$paddingRight:               20px !default;
+
+/**************  COMPONENTS  ****************/
+/*$baseBorderRadius:      4px !default;*/
+/*$sansFontFamily:                $baseFontFamily;*/
+
+
+// Dropdowns
+// -------------------------
+/*$dropdownBackground:            $white !default;*/
+/*$dropdownBorder:                rgba(0,0,0,.2) !default;*/
+/*$dropdownDividerTop:            #e5e5e5 !default;*/
+/*$dropdownDividerBottom:         $white !default;*/
+
+$dropdownLinkColor:             $textColor !default;
+$dropdownLinkColorHover:        $textColor !default;
+$dropdownLinkColorActive:       $dropdownLinkColor !default;
+
+$dropdownLinkBackgroundActive:  $textColor !default;
+$dropdownLinkBackgroundHover:   $dropdownLinkBackgroundActive !default;
+
+
+// Z-index master list
+// -------------------------
+// Used for a bird's eye view of components dependent on the z-axis
+// Try to avoid customizing these :)
+$zindexDropdown:          1000 !default;
+$zindexPopover:           1010 !default;
+$zindexNav:               1020 !default;
+$zindexTooltip:           1030 !default;
+$zindexFixedNavbar:       1030 !default;
+$zindexModalBackdrop:     1040 !default;
+$zindexModal:             1050 !default;
+
+
+// FORMS
+$inputHeight:                   $baseLineHeight + 10px; // base line-height + 8px vertical padding + 2px top/bottom border
+
+// Navbar
+// -------------------------
+$navbarCollapseWidth:             979px !default;
+$navbarCollapseDesktopWidth:      $navbarCollapseWidth + 1;
+
+$navbarHeight:                    65px;
+$navbarBackgroundHighlight:       #ffffff !default;
+
+$navbarBackground:                darken($navbarBackgroundHighlight, 5%) !default;
+$navbarBorder:                    darken($navbarBackground, 12%) !default;
+
+
+// Inverted navbar
+$navbarInverseBackgroundHighlight:       #222222 !default;
+$navbarInverseBorder:                    #252525 !default;
+
+
+
+// GRID
+// --------------------------------------------------
+
+// Default 940px grid
+// -------------------------
+$gridColumns:             12 !default;
+$gridColumnWidth:         60px !default;
+$gridGutterWidth:         20px !default;
+$gridRowWidth:            ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1)) !default;
